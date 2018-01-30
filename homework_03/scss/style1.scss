@@ -1,0 +1,20 @@
+
+@import "variables1";
+@import "main";
+body #content
+{
+  table{
+  	width: 800px;
+  }
+  .brief{
+  	background-color: l$bodyColor;
+  }
+  .form{
+    color: $FormCaptColor;
+  }
+  .buttonSt{
+  background-color: $ContentBackground;
+  color: $FormCaptColor;
+  border: 2px solid $FormCaptColor;
+  }
+}

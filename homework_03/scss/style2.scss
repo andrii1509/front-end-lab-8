@@ -1,0 +1,36 @@
+@import "variables2";
+@import "main";
+body #content{
+	h1{
+		margin-top: 10px;		
+	}
+	img{
+		padding:10px;
+		border-width: 1px;		
+	}
+	.brief{
+	  width: 920px;
+	  color: $briefTextColor;
+	}
+	table{
+		caption{
+		  font-size: 15px;
+		  color: $briefTextColor;
+		}
+		th{
+			color: $briefTextColor;
+			border-right: 2px solid $bodyColor;
+		}
+  	td{
+		  background-color: $tablecolor;
+		}
+	}
+	.form{
+		color: $headingColor;
+	}
+	.buttonSt{
+		background-color: $ContentBackground;
+		color: $headingColor;
+		border: 1px solid $headingColor;
+	}
+}

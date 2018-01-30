@@ -1,0 +1,89 @@
+body {
+  background-color: rgba(198, 238, 252, 0.53);
+  font: normal 15px/20px Georgia, "Times New Roman", Times, serif; }
+  body #content {
+    width: 960px;
+    margin: 0 auto;
+    background: #3b3b3b;
+    padding: 30px;
+    color: #fff; }
+    body #content h1 {
+      margin-top: 5px;
+      color: #fccd10;
+      text-align: center; }
+    body #content h2 {
+      color: #fccd10;
+      margin-top: 40px;
+      font-weight: normal; }
+    body #content a {
+      color: #fccd10; }
+    body #content img {
+      padding: 3px;
+      border: 3px solid #f5c70f; }
+    body #content .img-left {
+      padding: 3px;
+      float: left;
+      margin: 2px 20px 20px 0; }
+    body #content .img-right {
+      padding: 3px;
+      float: right;
+      margin: 5px 0px 20px 20px; }
+    body #content .brief {
+      float: left;
+      margin: 5px 20px 20px 0;
+      padding: 20px;
+      line-height: 14px;
+      width: 300px;
+      background-color: #fff178; }
+    body #content table {
+      border-collapse: collapse;
+      text-align: left; }
+      body #content table caption {
+        display: table-caption;
+        text-align: right;
+        padding: 10px;
+        font-size: 1.2em; }
+      body #content table th, body #content table td {
+        padding: 10px 20px; }
+      body #content table th {
+        border-right: 1px solid #3b3b3b;
+        background-color: #94a34e;
+        font-weight: normal;
+        text-transform: uppercase; }
+      body #content table td {
+        border-bottom: 1px solid #94a34e; }
+  body .form .inputName {
+    float: left;
+    width: 470px; }
+  body .form .inputSurname {
+    float: left;
+    width: 470px; }
+  body .buttonSt {
+    height: 60px;
+    padding: 0 65px;
+    font-size: 20px; }
+
+body #content h1 {
+  margin-top: 10px; }
+body #content img {
+  padding: 10px;
+  border-width: 1px; }
+body #content .brief {
+  width: 920px;
+  color: #000000; }
+body #content table caption {
+  font-size: 15px;
+  color: #000000; }
+body #content table th {
+  color: #000000;
+  border-right: 2px solid rgba(198, 238, 252, 0.53); }
+body #content table td {
+  background-color: #677d01; }
+body #content .form {
+  color: #fccd10; }
+body #content .buttonSt {
+  background-color: #3b3b3b;
+  color: #fccd10;
+  border: 1px solid #fccd10; }
+
+/*# sourceMappingURL=style2.css.map */

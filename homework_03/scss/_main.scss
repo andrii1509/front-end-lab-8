@@ -1,0 +1,82 @@
+body{
+	background-color: $bodyColor;
+	font: $bodyFont;
+	#content{
+		width: 960px;
+		margin: 0 auto;
+		background: $ContentBackground;
+		padding: 30px;
+		color: $ContentColor;
+		h1{
+			margin-top: 5px;
+			color: $headingColor;
+			text-align: center;
+		}
+		h2{
+			color: $headingColor;
+			margin-top: 40px;
+			font-weight: normal; 
+		}
+		a{
+			color: $linkColor;
+		}
+		img{
+			padding: 3px;
+			border: 3px solid $fotoBorder;
+		}
+		.img-left{
+			padding: 3px;
+			float: left;
+			margin: 2px 20px 20px 0;
+		}
+		.img-right{
+			padding: 3px;
+  		float: right;
+ 			margin: 5px 0px 20px 20px;
+		}
+		.brief{
+			float: left;
+ 			margin: 5px 20px 20px 0;
+ 			padding: 20px;
+	    line-height: 14px;
+ 			width: 300px;
+ 			background-color:$briefColor;
+ 		}
+ 		table{
+ 			border-collapse: collapse; 
+ 			text-align: left;
+ 			caption{
+ 			  display: table-caption;
+    	  text-align: right;
+    	  padding:10px;
+		  	font-size: 1.2em;
+		  }
+ 			th, td{
+ 			  padding: 10px 20px;}
+ 			th{
+  		  border-right: 1px solid $ContentBackground;
+ 			  background-color: $tableThColor;
+ 			  font-weight: normal;
+ 			  text-transform: uppercase;
+ 		  }
+ 			td{
+ 			border-bottom: 1px solid $tableThColor;
+ 		}
+ 		}
+	}
+	.form{
+		.inputName{
+			float: left;
+			width: 470px;
+		}
+		.inputSurname{
+  		float: left;
+			width: 470px;
+		}
+	}
+	.buttonSt{
+		height: 60px;
+		padding: 0 65px;
+		font-size: 20px;
+	}
+}
