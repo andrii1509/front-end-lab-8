@@ -1,0 +1,233 @@
+body {
+  margin: 0 auto; }
+
+header {
+  height: 500px;
+  color: #fff;
+  background: url(../img/apples.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto; }
+  header nav {
+    margin: 0 10%;
+    position: relative; }
+  header .capt {
+    float: left;
+    padding-top: 5px; }
+  header ul {
+    width: 300px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #ffffff;
+    margin: 0;
+    padding: 5% 5% p; }
+  header li {
+    display: inline;
+    float: left;
+    padding-left: 5%;
+    padding-top: 20px; }
+  header a {
+    color: #ffffff;
+    display: block; }
+  header h1 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 20%; }
+  header p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px; }
+
+.buttonSt {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 40px;
+  padding: 0 40px;
+  font-size: 10px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background-color: #000000;
+  opacity: 0.5; }
+
+.c1 {
+  padding: 0 10%;
+  width: 80%;
+  height: 150px;
+  background-color: #ffffff;
+  position: relative; }
+
+.p1 {
+  margin: 3%;
+  float: left;
+  width: 44%;
+  display: block; }
+
+.p2 {
+  margin: 3%;
+  font-size: 10px;
+  float: left;
+  width: 44%;
+  text-align: justify; }
+
+.c2 {
+  padding: 0 10%;
+  width: 80%;
+  background-color: #F3F3F3; }
+  .c2 p {
+    padding-top: 40px;
+    text-align: center;
+    margin: 0; }
+
+.articles {
+  color: #ffffff;
+  height: 800px;
+  padding: 5%;
+  background-color: #F3F3F3; }
+  .articles article {
+    background-color: #A4A4A4;
+    height: 230px;
+    background-size: cover;
+    float: left;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .articles article:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #000);
+      opacity: 0.5; }
+  .articles .france {
+    width: 65%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    background: url(../img/sample.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .articles .budapest {
+    width: 33%;
+    background: url(../img/sample2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .articles .first {
+    margin-bottom: 2%; }
+  .articles .second {
+    margin-right: 2%; }
+  .articles .america {
+    width: 65%;
+    background: url(../img/sample3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .articles .inp {
+    width: 80%;
+    height: 200px;
+    background-color: #F3F3F3;
+    padding: 10%;
+    padding-bottom: 0;
+    color: #000000;
+    float: left;
+    position: relative; }
+    .articles .inp .buttonSt2 {
+      left: 50%;
+      transform: translateX(-50%);
+      height: 40px;
+      padding: 0 40px;
+      font-size: 10px;
+      color: #ffffff;
+      border: 2px solid #ffffff;
+      background-color: #000000; }
+    .articles .inp .i1 {
+      padding: 80px 80px 100px 80px;
+      background-color: #ffffff; }
+    .articles .inp .inp1 {
+      height: 36px; }
+
+p.like {
+  position: absolute;
+  margin: 10px;
+  font-size: 12px;
+  top: 5px;
+  right: 5px;
+  padding: 6px;
+  margin: 10px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background-color: gray;
+  opacity: 0.7; }
+
+p.about {
+  position: absolute;
+  margin: 10px;
+  left: 5px;
+  bottom: 5px; }
+
+.row {
+  height: 230px;
+  width: 100% px;
+  background-color: #ffffff;
+  padding-left: 100px;
+  padding-right: 100px; }
+
+.column {
+  text-align: left;
+  padding: 2%;
+  float: left;
+  width: 20%;
+  background-color: #ffffff; }
+  .column .bottxt {
+    color: #A4A4A4;
+    text-align: justify; }
+  .column .bottxt2 {
+    font-style: italic; }
+
+.buttonSt3 {
+  height: 40px;
+  font-size: 10px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background-color: #000000;
+  width: 30%;
+  margin-right: 5%; }
+
+.inp1 {
+  height: 36px;
+  font-style: italic;
+  width: 50%;
+  margin-left: 5%; }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+footer nav {
+  margin: 0 10%;
+  position: relative;
+  border-top: 1px solid #9E9E9E; }
+footer .capt {
+  float: left;
+  padding-top: 5px;
+  color: #9E9E9E; }
+footer ul {
+  width: 300px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #ffffff;
+  margin: 0;
+  padding: 5% 5% p; }
+footer li {
+  display: inline;
+  float: left;
+  padding-left: 5%;
+  padding-top: 20px; }
+footer a {
+  color: #000000;
+  display: block;
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
