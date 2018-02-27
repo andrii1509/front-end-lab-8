@@ -1,0 +1,17 @@
+/* Your styles goes here */
+
+
+ul {
+    line-height: 50%;
+ }
+
+p {
+    display: inline-block;
+    top:-5px;
+}
+i {
+    color: #F7D572;
+}
+.stylelist2 {
+    display: none;
+}
