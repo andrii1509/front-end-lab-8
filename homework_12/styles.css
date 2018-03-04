@@ -1,0 +1,68 @@
+/* Your styles goes here */
+body{
+	background-color: #1C1C1E;
+}
+.prev{
+	height: 100px;
+}
+#root{
+	font-style: serif;
+	color: #fff;
+	width: 90%;
+	display: flex;
+	position: relative;
+	margin: 0 auto;
+	flex-wrap: nowrap;
+	flex-flow: row wrap;
+	text-align: center;
+}
+.links{
+	/*flex-wrap: nowrap;*/
+	text-decoration: none;
+	/*position: absolute;*/
+	justify-content: space-around;
+}
+.t1{
+	margin: 0 1%;
+}
+a{
+	color: #9D9A85;
+	text-decoration: none;
+	/*font-size: 20px;*/
+
+}
+.prevIm{
+	float: left;
+}
+.table1 {
+	width: 700px;
+	text-align: left;
+	height: 200px;
+	font-size: 20px;
+	color: #9D9A85;
+	border: 3px solid #9D9A85;
+	border-collapse: collapse;
+}
+.table1, tr, td {
+	border: 1px solid #9D9A85;
+	padding-left: 10px; 
+}
+
+
+.l2{
+	margin-top: 200px; 
+	text-align: left;
+}
+.text{
+	display: inline-block;
+	text-align: left;
+	margin-right:  5px;
+}
+.flag2{
+	float: left;
+	margin-top: 7px;
+	margin-right: 5px;
+}
+.p2{
+/*	margin-left: 5px;*/
+}
